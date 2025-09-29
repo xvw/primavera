@@ -1,0 +1,3 @@
+(library
+ (name primavera)
+ (public_name primavera))

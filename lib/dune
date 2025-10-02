@@ -1,3 +1,4 @@
 (library
  (name primavera)
- (public_name primavera))
+ (public_name primavera)
+ (modules_without_implementation sig))

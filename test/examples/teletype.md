@@ -43,7 +43,7 @@ let teletype () =
   let open Primavera in
   let* () = Fx.print_line "What is your name?" in
   let* name = Fx.read_line () in 
-  Fx.print_line ("Hello " ^ name) ;;
+  Fx.print_line ("Hello " ^ name)
 ```
 
 If we inspect the type of our `teletype` programme, we can observe

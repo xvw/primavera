@@ -2,3 +2,7 @@
  (name primavera)
  (public_name primavera)
  (modules_without_implementation sig))
+
+(mdx
+ (files *.mli)
+ (libraries primavera))
